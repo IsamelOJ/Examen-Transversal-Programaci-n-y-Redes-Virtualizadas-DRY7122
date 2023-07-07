@@ -10,7 +10,7 @@ db_name = 'test.db'  # Nombre de la base de datos SQLite
 
 @app.route('/')
 def index():
-    return '¡Bienvenido a la parte 4 del examen transversal!'  # Devuelve un mensaje de bienvenida en la ruta principal ("/")
+    return '¡Bienvenido a la parte 3 del examen transversal!'  # Devuelve un mensaje de bienvenida en la ruta principal ("/")
 
 @app.route('/signup/v2', methods=['GET', 'POST'])
 def signup_v2():
